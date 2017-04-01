@@ -1,0 +1,18 @@
+lusho:-
+    write(6).
+hola:-
+    write("hola mundo upc").
+lusho1:-
+   A is 88,
+   write(" el numero es "),
+   nl,
+   write(A).
+suma(X,Y):-
+    Res is X+Y,
+    write(Res).
+suma(X,Y,R):-
+    R is X+Y.
+leer1:-
+    write("ingrese numero1: "),read(Num1),write("ingrese numero2: "),read(Num2),R is Num1+Num2,write(R).
+
+
